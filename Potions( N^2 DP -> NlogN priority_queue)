@@ -1,0 +1,8 @@
+https://codeforces.com/contest/1526/problem/C2
+
+
+Solution : Maintaining a priority_queue(min) of potions taken till now & a variable health. 
+          As soon as health < 0.. start removing the negative elements which had been consumed
+          earlier as the main motive is to maximize the number of potions consumed.
+
+Solution Link.  :- https://codeforces.com/contest/1526/submission/245427450
